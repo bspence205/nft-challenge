@@ -8,7 +8,7 @@ function NFTDropPage() {
     const address = useAddress()
     const disconnect = useDisconnect()
   
-  
+  console.log(address)
   
   return <div className='flex h-screen flex-col lg:grid lg:grid-cols-10'>
 
@@ -47,9 +47,10 @@ function NFTDropPage() {
             {' '}Ape Yacht Club NFT Marketplace
             </h1>
 
-            <button onClick={() => connectWithMetamask()} className='rounded-full bg-rose-400 text-white
+            <button onClick={() => address ? disconnect() : connectWithMetamask()}
+            className='rounded-full bg-rose-400 text-white
             px-4 py-2 text-xs font-bold lg:px-5 lg:py-3 lg:text-base'>
-            Sign In
+            {address ? 'Sign Out' : 'Sign In'}
             </button>
         </header>
 
