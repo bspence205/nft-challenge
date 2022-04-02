@@ -55,6 +55,11 @@ function NFTDropPage() {
         </header>
 
         <hr className='my-2 border' />
+        {address && (
+        <p className='text-center text-sm text-rose-400'>
+            You're logged in with the wallet {address.substring(0, 5)}...{address.substring(address.length - 5)}
+        </p>
+        )}
 
     {/* Content */}
         <div className='mt-10 flex flex-1 flex-col items-center space-y-6 text-center lg:justify-center
