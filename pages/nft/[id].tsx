@@ -60,7 +60,9 @@ function NFTDropPage() {
         </div>
 
     {/* Mint Button */}
-    
+        <button className='mt-10 h-16 bg-red-600 w-full text-white rounded-full font-bold'>
+            Mint NFT (0.01 ETH)
+        </button>
   </div>
 </div>
 
