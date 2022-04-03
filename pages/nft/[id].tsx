@@ -29,12 +29,12 @@ function NFTDropPage() {
                   Corgi Ape Yacht Club
               </h1>
               <h2 className='text-xl text-gray-300'>
-                  A collection of apes of Corgi Apes who live & breathe React!
+                  A collection of Corgi Apes who live & breathe React!
               </h2>
           </div>
         </div>
       </div>
-
+ 
 
 
 {/* Right */}
