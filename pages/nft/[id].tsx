@@ -50,7 +50,7 @@ function NFTDropPage({collection}: Props) {
     {/* Header */}
         <header className='flex items-center justify-between'>
            <Link href={'/'}>
-           <h1 className='w-52 cursor-pointer text-xl font-extralight sm:w-80'>
+           <h1 className='w-52 cursor-pointer text-xl font-extralight sm:w-80 hover:scale-y-150'>
             The{' '} 
             <span className='font-extrabold underline decoration-pink-600/50'>Corgi</span>
             {' '}Ape Yacht Club NFT Marketplace
